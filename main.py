@@ -7,7 +7,7 @@ from datetime import date
 #print(today)
 
 api_key = "use_newsapi.org_for_api"
-url = "https://newsapi.org/v2/everything?q=tesla&from=2023-05-29&sortBy=publishedAt&apiKey=8b996866cebb471fb2c15edbd6c1cffe"
+url = "https://newsapi.org/v2/everything?q=tesla&from=2023-05-29&sortBy=publishedAt&apiKey={refer_above_line}"
 
 request = requests.get(url)
 content = request.json()
